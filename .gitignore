@@ -1,0 +1,42 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Generated builds, local editor state and temporary files
+**/build/
+/.kotlin/
+/.idea/
+/tmp/
+
+# Personal plans, device backups, screenshots and packaged releases
+/output/
+/tools/fill_personal_plan.py
+/tools/fill_female_plan.py
+*.apk
+*.aab
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local secrets and signing keys
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+__pycache__/
+*.pyc
